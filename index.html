@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w2.org/1999/xhtml">
+<html lang="en">
+    <head>
+	<meta name="generator" content="Hugo 0.111.3">
+            <meta charset="utf-8" />
+    <title> </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href=""/>
+    <link rel="canonical" href="/" />    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.33.2/js/jquery.terminal.min.js"></script>
+    <script src="https://unpkg.com/jquery.terminal/js/autocomplete_menu.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.33.2/css/jquery.terminal.min.css" rel="stylesheet"/>
+
+    <style>
+        body {
+            width: 100%;
+            font-size: 18px;
+        }
+    </style>
+    
+    </head>
+        <body>
+        
+<script> 
+jQuery(document).ready(function($) {
+    var animation = false;
+    var availableCommands = ["tudo", "quem", 'social', 'experiencia', 'educacao',
+                    'skills', 'softskills', 'idiomas',
+                    'projetos',
+	             'certificacoes', 
+                    
+                    
+                    
+                    
+                    ] 
+
+    $('body').terminal(function(command, term) {
+
+     
+    function quem () {
+        term.echo ("");
+         
+            term.echo ("[[b;grey;]Nome:]\t\t\tRenato Borges");
+            term.echo ("[[b;grey;]Profissao:]\t\tDesenvolvedor Java");
+            term.echo ("[[b;grey;]Location:]\t\tGuarulhos - SP");
+            
+                term.echo ("[[b;grey;]Email:]\t\t\trenato.borgess@gmail.com");
+            
+            
+                term.echo ("[[b;grey;]Homepage:]\t\thttps:\/\/myHomePage.com");
+            
+            
+                term.echo ("")
+                term.echo ("Sou um desenvolvedor java colaborativo e entusiasmado com o mundo da TI. \n  Voce pode encontrar minhas informaçoes de contato como comando \u0027quem\u0027. \n  Vamos conversar sobre a sua vaga.\n")
+            
+        
+        term.echo ("");
+      }
+
+    function social () {
+        term.echo("");
+        
+            
+                
+                    term.echo("github:" + "         https:\/\/github.com\/RenatoBorgess");
+                
+                    term.echo("linkedin:" + "       https:\/\/www.linkedin.com\/in\/renato-borges-dev\/");
+                
+            
+        
+        term.echo("")
+    }
+	    
+    function certificacoes () {
+        term.echo("");
+        
+            
+                term.echo("[[b;grey;]Example Cert]");
+	    	term.echo("Date of Completion");
+                
+                    term.echo("Example Certifying Company");
+                
+                
+                term.echo("-------------------- ");
+                term.echo("");
+            
+        
+    }
+	    
+    function experiencia () {
+        term.echo("");
+        
+            
+                term.echo("[[b;red;]Desenvolvedor Backend]");
+                term.echo("Freelancer");
+                term.echo("Guarulhos");
+                term.echo("Setembro 2022 - Presente");
+                term.echo ("");
+                term.echo("Desempenho as atividades de um desenvolvedor backend em projetos colaborativos. \n- CMS Insurance: Sistema interno de gerenciamento de reclamçoes de seguro. Sistema permite gerenciar reclamaçoes abertas, analises de surveyor,\n  pagamento de Surveyor, aprovaçao de premio de seguro, cadastro de apolice, etc. \nTecnologias utilizadas: Java 17, Spring Boot 3, Maven, Hibernate, Spring Data, JUnit, PostgrSQL\n");
+                term.echo("-------------------- ");
+                term.echo("");
+            
+                term.echo("[[b;grey;]Criador de conteudo e professor de musica]");
+                term.echo("Escola do Violonista");
+                term.echo("remoto");
+                term.echo("Dezembro 2021 - Setembro 2022");
+                term.echo ("");
+                term.echo("Gerenciei a captaçao de alunos para aulas de violao. Criei landing pages para captar alunos interessados. \nCriei campanhas de anuncios paras as principais plataformas de anuncios pagos online.\n");
+                term.echo("-------------------- ");
+                term.echo("");
+            
+        
+    }
+
+    function educacao () {
+        term.echo("");
+        
+            
+                term.echo("[[b;red;]Formaçao Backend Oracle ONE \u002b Alura]");
+                term.echo("Novembro 2022 - Maio 2023");
+                
+                    term.echo("O Programa ONE foi idealizado para suprir a demanda de profissionais de tecnologia para o mercado brasileiro. \nTivemos 6 formaçoes para conquistar o certificado da formaçao. \nLogica de programaçao\nJava e POO\nSpring \/ Spring Boot\nSoftskills\nBusiness Agility\nEmpreendedorismo\n");
+                
+                term.echo("-------------------- ");
+                term.echo("");
+            
+                term.echo("[[b;blue;]Bootcamp BancoPan Java Developer]");
+                term.echo("Fevereiro 2023 - Maio 2023");
+                
+                    term.echo("O Banco Pan em parceria com a DIO proporcionaram um bootcamp focado em Java e Spring.\nTive a oportunidade de ter contato com Banco de Dados Relacionais e Nao Relacionais (PostegreSQL, MongoDB)\nCore Java e POO\nSwagger, Spring Boot, Spring Security, Spring Data\nHibernate, Maven\nLombok \nJUnit\n");
+                
+                term.echo("-------------------- ");
+                term.echo("");
+            
+                term.echo("[[b;green;]Bacharel em Musica]");
+                term.echo("Fevereiro 2008 - Fevereiro 2012");
+                
+                    term.echo("Desenvolvi habilidades de pesquisa bibliografica, redacao cientifica e aptidoes em musica.\nMe tornei violonista classico e professor.\n");
+                
+                term.echo("-------------------- ");
+                term.echo("");
+            
+        
+    }
+
+    function skills () {
+        term.echo(" ");
+        
+            
+                var bar_length = Math.round( 85  / 10);
+                var bar_filled = Array(bar_length + 1).join("&#9611;");
+                var bar_blank= Array(11 - bar_length).join("&#9617;");
+                term.echo("[[b;grey;]Java:]\n" +
+                        bar_filled + bar_blank + 
+                         85  +"%");
+                
+                    term.echo("Essa parte e subjetiva. Tenho competencia para utilizar os principios da POO, ler documentacao, utilizar lambdas, Stream, Collections, etc");
+                
+                term.echo ("")
+            
+                var bar_length = Math.round( 85  / 10);
+                var bar_filled = Array(bar_length + 1).join("&#9611;");
+                var bar_blank= Array(11 - bar_length).join("&#9617;");
+                term.echo("[[b;grey;]Spring Boot:]\n" +
+                        bar_filled + bar_blank + 
+                         85  +"%");
+                
+                term.echo ("")
+            
+                var bar_length = Math.round( 75  / 10);
+                var bar_filled = Array(bar_length + 1).join("&#9611;");
+                var bar_blank= Array(11 - bar_length).join("&#9617;");
+                term.echo("[[b;blue;]SQL:]\n" +
+                        bar_filled + bar_blank + 
+                         75  +"%");
+                
+                    term.echo("Manipulaçao de dados, customizaçao de queries, indexaçao e performance.");
+                
+                term.echo ("")
+            
+        
+    }
+    function softskills () {
+        term.echo("");
+        
+            
+                var bar_length = Math.round( 90  / 10);
+                var bar_filled = Array(bar_length + 1).join("&#9611;");
+                var bar_blank= Array(11 - bar_length).join("&#9617;");
+                term.echo("[[b;red;]Comunicacao:]\n" +
+                       bar_filled + bar_blank +
+                        90  +"%");
+                
+                    term.echo("Facilidade em falar em publico, objetividade e concisao na escrita(portugues e ingles).");
+                
+                term.echo ("")
+            
+                var bar_length = Math.round( 80  / 10);
+                var bar_filled = Array(bar_length + 1).join("&#9611;");
+                var bar_blank= Array(11 - bar_length).join("&#9617;");
+                term.echo("[[b;yellow;]Proatividade - Colaboracao:]\n" +
+                       bar_filled + bar_blank +
+                        80  +"%");
+                
+                    term.echo("Principalmente no que tange a colaboracao com membros da equipe. Gosto de ajudar e dissecar problemas em conjunto.");
+                
+                term.echo ("")
+            
+        
+    }
+      
+    function idiomas () {
+        term.echo("");
+        
+            
+                var bar_length = Math.round( 90  / 10);
+                var bar_filled = Array(bar_length + 1).join("&#9611;");
+                var bar_blank= Array(11 - bar_length).join("&#9617;");
+                term.echo("[[b;Blue;]English:]\n" +
+                        "" + bar_filled + bar_blank + 
+                        " " +  90  +"%");
+                
+                    term.echo("This percentages are just to keep the template as it is. \nI don\u0027t think we can measure some skills with percentage. BTW, I hope your\u0027re enjoying this experience. \nLet\u0027s chat about your job opening.   \n");
+                
+                term.echo("")
+            
+        
+    }
+
+    
+    function projetos () {
+        term.echo("");
+        
+            
+                term.echo("[[b;red;]CMS Insurance]");
+                term.echo("")
+                term.echo("https:\/\/www.github.com\/RenatoBorgess\/cmsinsurance")
+                
+                    term.echo("API para gerenciamento de reclamaçoes de seguro. Projeto desenvolvido com stack moderna Java\/Spring Boot");
+                
+                term.echo("-----------------------");
+                term.echo("");
+          
+                term.echo("[[b;blue;]Curriculo no terminal]");
+                term.echo("")
+                term.echo("")
+                
+                    term.echo("Esse site que esta vendo. Framework HUGO.");
+                
+                term.echo("-----------------------");
+                term.echo("");
+          
+        
+    }
+
+    function misc (){
+        term.echo ("")
+        term.echo("[[b;;]]" + "\n")
+        term.echo ("[[;;]]")
+        term.echo ("")
+    }
+
+    function ajuda () {
+        term.echo("\n[[b;white;]Comandos disponiveis:]\n" +
+                  "\n" + availableCommands.join(' ')+ '\n') 
+    }
+
+      function source() {
+          term.echo("        _______            \n"+
+                    "       |       |           \n"+
+                    "       |       |           \n"+
+                    "       |_______|_______    \n"+
+	                "               |       |   \n"+
+                    "               |       |   \n"+
+                    " ______________|_______|   \n"+
+                    "|      |       |       |   \n"+
+                    "|      |       |       |   \n"+
+                    "|______|_______|_______|   \n"+
+                    "[[;red;]May the source be with you]\n"+
+                    "[[;grey;]https://github.com/4s3ti/terminalcv\n");
+      }
+
+    
+    function progress(percent, width) {
+        var size = Math.round(width*percent/100);
+        var left = '', taken = '', i;
+        for (i=size; i--;) {
+            taken += '=';
+        }
+        if (taken.length > 0) {
+            taken = taken.replace(/=$/, '>');
+        }
+        for (i=width-size; i--;) {
+            left += ' ';
+        }
+        return '[' + taken + left + '] ' + percent + '%';
+    }
+
+    function loading () {
+        var i = 0, size = 30;
+        prompt = term.get_prompt();
+        string = progress(0, size);
+        term.set_prompt(progress);
+        animation = true;
+        (function loop() {
+            string = progress(i++, size);
+            term.set_prompt(string);
+            if (i < 100) {
+                timer = setTimeout(loop, 10);
+            } else {
+                term.echo(progress(i, size) + ' [[b;green;]OK]').set_prompt(prompt);
+                animation = false
+            }
+        })();
+    }
+
+       
+        commands = command.split(/[ ]+/);
+        switch(commands[0]) {
+            case 'quem':
+                quem();
+                break;
+            case 'social':
+                social();
+                break;
+            case 'experiencia':
+                experiencia();
+                break;
+            case 'educacao':
+                educacao();
+                break;
+            case 'skills':
+                skills();
+                break;
+            case 'softskills':
+                softskills();
+                break;
+            case 'idiomas':
+                idiomas();
+                break;
+            case 'projetos':
+                projetos();
+                break;
+	    case 'certificacoes':
+                certificacoes();
+                break;
+            case 'misc':
+                misc();
+                break;
+            case 'ajuda':
+                ajuda();
+                break;
+            case 'tudo':
+                quem();
+                social();
+                experiencia();
+                educacao();
+                skills();
+                softskills();
+                idiomas();
+                projetos();
+		certificacoes();
+                break;
+            
+            case ':(){:|:&};:':
+            case 'source':
+                source();
+                break;
+            
+            default:
+                term.echo("\ncomando desconhecido: " + command + "\n" +
+                          "por favor, digite 'ajuda' para a lista de comandos disponiveis'\n");
+        }
+    }, {
+        prompt: '[[;grey;]recrutador(a)@terminalcv][[;grey;]:~$]' + " ",
+        greetings: "[[b;white;]Bem-vindo ao meu CV online\n\n\nDigite \u0027ajuda\u0027 para ver a lista de comandos\n]",
+        keydown: function(e, term) {
+            if (animation) {
+                if (e.which == 68 && e.ctrlKey) { 
+                    clearTimeout(timer);
+                    animation = false;
+                    term.echo(string + ' [[b;red;]FAIL]')
+                    .set_prompt(prompt);
+                }
+                return false;
+            }
+        },
+        autocompleteMenu: true,
+        completion: availableCommands
+        
+    });
+});
+</script>
+
+        </body>
+</html>
